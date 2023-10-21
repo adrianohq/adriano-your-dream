@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+    background-color: #fff44f;
+    }
+    25% {
+    background-color: #4169e1;
+    }
+    50% {
+    background-color: #80A867;
+    }
+    75% {
+    background-color: #ff2400;
+    }
+    100% {
+    background-color: #fff44f;
+    }
+}
+
+.navbar {
+    animation: backgroundAnimation 8s infinite;
+}
+
+#cabecalho .nav .nav-link.active,
+#cabecalho .nav .nav-link:hover  {
+    background-color: #000;
+    color: #FFF;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-opcoes .nav-link.active:hover {
+    color: #000;
+}
+
+.navbar-toggler {
+    background-color: #FFF;
+}
+
+.section-title {
+    font-family: 'Yellowtail', cursive;
+}
+
+#sobre-nos {
+    background-color: #FFFED3;
+}
+
+#pacotes {
+    background-color: #d2e8ff;
+}
+
+#opcoes {
+    background-color: #ffc8bf;
+}
+
+#fale-conosco {
+    background-color: #f0ffe6;
+}
+
+.text-colored1 {
+    color: #B3AF37
+    ;
+}
+
+.text-colored2 {
+    color: #4169e1;
+}
+
+.text-colored3 {
+    color: #ff2400;
+}
+
+.text-colored4 {
+    color: #80A867;
+}
+
+.nav-link {
+    color: #000;
+}
+.nav-opcoes .nav-link.active{
+    background-color: #ff2400;
+    color: #FFF;
+}
+
+.nav-opcoes .nav-link:hover {
+    background-color: #ff2400;
+    color: #FFF;
+}
+
+#fale-conosco button {
+    background-color: #80A867;
+    color: #FFF;
+}
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+label.error {
+    color: red;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #80A867;
+    color: #f0ffe6;
+}
+
+footer h3 {
+    color: #f0ffe6;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 150px;
+    }
+}
